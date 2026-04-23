@@ -24,7 +24,7 @@
         },
         {
           "type": "image",
-          "url": "/public/4.png"
+          "url": "/4.png"
         },
         {
           "type": "list",
@@ -61,7 +61,7 @@
         },
         {
           "type": "image",
-          "url": "/public/img1.png"
+          "url": "/img1.png"
         },
         {
           "type": "section",
@@ -88,7 +88,7 @@
             },
             {
               "type": "image",
-              "url": "/public/img2.png"
+              "url": "/img2.png"
             },
             {
               "type": "paragraph",
@@ -127,7 +127,7 @@
             },
             {
               "type": "image",
-              "url": "/public/img3.png"
+              "url": "/img3.png"
             }
           ]
         },
@@ -145,7 +145,7 @@
             },
             {
               "type": "image",
-              "url": "/public/img4.png"
+              "url": "/img4.png"
             },
             {
               "type": "list",
@@ -196,7 +196,7 @@
                 },
                 {
                   "type": "image",
-                  "url": "/public/img5.png"
+                  "url": "/img5.png"
                 }
               ]
             },
@@ -239,7 +239,6 @@
           "type": "subheading",
           "content": "Configure supported currencies, location-based switching, and how storefront prices are displayed."
         },
-
         {
           "type": "section",
           "contents": [
@@ -258,7 +257,7 @@
             },
             {
               "type": "image",
-              "url": "/public/img4.png"
+              "url": "/img4.png"
             }
           ]
         },
@@ -282,7 +281,7 @@
             },
             {
               "type": "image",
-              "url": "/public/img6.png"
+              "url": "/img6.png"
             }
           ]
         },
@@ -310,7 +309,7 @@
             },
             {
               "type": "image",
-              "url": "/public/img7.png"
+              "url": "/img7.png"
             }
           ]
         }
@@ -348,7 +347,7 @@
                 },
                 {
                   "type": "image",
-                  "url": "/public/img8.png"
+                  "url": "/img8.png"
                 }
               ]
             },
@@ -391,7 +390,6 @@
           "type": "subheading",
           "content": "Control the app's core conversion behavior, rate updates, and storefront recovery options."
         },
-
         {
           "type": "section",
           "contents": [
@@ -422,7 +420,7 @@
             },
             {
               "type": "image",
-              "url": "/public/img9.png"
+              "url": "/img9.png"
             }
           ]
         },
@@ -445,7 +443,7 @@
             },
             {
               "type": "image",
-              "url": "/public/img10.png"
+              "url": "/img10.png"
             }
           ]
         }
@@ -484,7 +482,7 @@
                 },
                 {
                   "type": "image",
-                  "url": "/public/img11.png"
+                  "url": "/img11.png"
                 }
               ]
             },
@@ -507,7 +505,7 @@
                 },
                 {
                   "type": "image",
-                  "url": "/public/img12.png"
+                  "url": "/img12.png"
                 }
               ]
             }
