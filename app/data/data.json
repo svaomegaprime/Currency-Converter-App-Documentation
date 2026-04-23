@@ -1,0 +1,801 @@
+{
+  "pages": [
+    {
+      "type": "singlepage",
+      "name": "Documentation",
+      "href": "/",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "User Documentation & Setup Guide"
+        },
+        {
+          "type": "subheading",
+          "content": "Qorix Currency Converter empowers you to sell globally with confidence."
+        },
+        {
+          "type": "paragraph",
+          "content": "Qorix Currency Converter automatically detects a customer's location to display prices in their local currency instantly."
+        },
+        {
+          "type": "paragraph",
+          "content": "Using our customizable storefront wizard, you can perfectly position the switcher to match your brand's look. By providing a localized experience with real-time exchange rates, you build immediate trust and significantly reduce checkout abandonment for international shoppers."
+        },
+        {
+          "type": "image",
+          "url": "/public/4.png"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Key Features",
+          "items": [
+            "Real-Time Exchange Rates: Maintain pricing accuracy with rates synced automatically every day.",
+            "Smart Geolocation: Auto-switch currencies based on customer location.",
+            "Lightweight Performance: Ensure a fast store experience with an instant-loading script.",
+            "Customizable Wizard: Design your widget with flexible positioning and modern 2D or 3D flags."
+          ]
+        }
+      ],
+      "sidebar": false,
+      "header": true
+    },
+    {
+      "type": "multipage",
+      "name": "Quick Setup Guide",
+      "href": "/quick-setup-guide",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Quick Setup Guide"
+        },
+        {
+          "type": "subheading",
+          "content": "The 3-Step Process"
+        },
+        {
+          "type": "paragraph",
+          "content": "When you install the app, your dashboard will show a 3-step guide to get you started."
+        },
+        {
+          "type": "image",
+          "url": "/public/img1.png"
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Step 1: Enable Theme App Embed"
+            },
+            {
+              "type": "paragraph",
+              "content": "To show the currency switcher on your storefront, you must enable the App Embed."
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "start": 1,
+              "label": "How to enable it",
+              "items": [
+                "Click the \"Active\" button on the dashboard.",
+                "You will be redirected to the Shopify Live Theme Customizer.",
+                "Ensure the Qorix toggle is ON and click the Save button."
+              ]
+            },
+            {
+              "type": "image",
+              "url": "/public/img2.png"
+            },
+            {
+              "type": "paragraph",
+              "content": "<strong>Note:</strong> If you do not click Save, the app will not work."
+            },
+            {
+              "type": "paragraph",
+              "content": "Go back to the app dashboard and click Verify Status to confirm success."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Step 2: Money Format Configuration"
+            },
+            {
+              "type": "paragraph",
+              "content": "This is the most important part of the setup. You need to update your Shopify settings so the app can change prices."
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "start": 1,
+              "label": "Configuration steps",
+              "items": [
+                "Go to Shopify Admin -> Settings -> General.",
+                "Under Store Defaults, click Change Formatting.",
+                "Copy the two code snippets provided in the Qorix dashboard.",
+                "Paste them into the respective fields (HTML with currency and HTML without currency).",
+                "Click Save."
+              ]
+            },
+            {
+              "type": "image",
+              "url": "/public/img3.png"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Step 3: Select Currency List"
+            },
+            {
+              "type": "paragraph",
+              "content": "Choose the countries and currencies you want to add to your store."
+            },
+            {
+              "type": "image",
+              "url": "/public/img4.png"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Options",
+              "items": [
+                "Click Go to Currency to manage your list on the 2nd page.",
+                "Click I have done this to use the default currency wizard settings."
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "name": "Analytics & Support",
+          "href": "/quick-setup-guide/analytics-support",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 1,
+              "content": "Analytics & Support"
+            },
+            {
+              "type": "paragraph",
+              "content": "Monitor your global performance directly from the dashboard and get help whenever you need it."
+            },
+            {
+              "type": "section",
+              "contents": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "content": "Real-Time Analytics"
+                },
+                {
+                  "type": "paragraph",
+                  "content": "Track how visitors interact with the app from your dashboard."
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Metrics",
+                  "items": [
+                    "Sessions this week: See how many unique visitors triggered the app.",
+                    "Currency Switches: Track how many times customers used the wizard to change prices."
+                  ]
+                },
+                {
+                  "type": "image",
+                  "url": "/public/img5.png"
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "contents": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "content": "Common Questions & Support"
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Support options",
+                  "items": [
+                    "FAQ: View frequently asked questions and answers directly on the dashboard.",
+                    "Live Support: Click the Live Support Chat Icon or the Contact Us button located at the bottom of the dashboard."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "sidebar": true,
+      "header": false
+    },
+    {
+      "type": "multipage",
+      "name": "Currency Page",
+      "href": "/currency-page",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Currency Page"
+        },
+        {
+          "type": "subheading",
+          "content": "Configure supported currencies, location-based switching, and how storefront prices are displayed."
+        },
+
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "General Settings"
+            },
+            {
+              "type": "paragraph",
+              "content": "Use the currency page to control which currencies are available to your visitors."
+            },
+            {
+              "type": "paragraph",
+              "content": "<strong>Active currencies:</strong> Pick the currencies your store supports. Your base currency is automatically included."
+            },
+            {
+              "type": "image",
+              "url": "/public/img4.png"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Location-Based Switching"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Available controls",
+              "items": [
+                "Auto-detect visitor location: Automatically shows local currency based on IP. Note: This will not work if the customer is using a VPN.",
+                "Exclude Specific Regions: Prevent auto-switching for specific countries if desired.",
+                "Fallback Currency: Displays your store's default currency if the visitor's location is not in your active list."
+              ]
+            },
+            {
+              "type": "image",
+              "url": "/public/img6.png"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Price Display Format"
+            },
+            {
+              "type": "paragraph",
+              "content": "Choose how your prices appear throughout the storefront."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Display options",
+              "items": [
+                "Without Currency Code: e.g., $9.99",
+                "With Currency Code: e.g., $9.99 USD",
+                "Currency Code Only: e.g., 9.99 USD"
+              ]
+            },
+            {
+              "type": "image",
+              "url": "/public/img7.png"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "name": "Design",
+          "href": "/currency-page/design",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 1,
+              "content": "Design"
+            },
+            {
+              "type": "paragraph",
+              "content": "Fine-tune the widget's appearance and behavior to match your storefront."
+            },
+            {
+              "type": "section",
+              "contents": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "content": "Visual Customization"
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Style options",
+                  "items": [
+                    "Display Mode: Choose to show the Currency Code (US Dollar) or the Country Name (United States).",
+                    "Flag Style: Select between 2D flags, 3D flags, or No Flag."
+                  ]
+                },
+                {
+                  "type": "image",
+                  "url": "/public/img8.png"
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "contents": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "content": "Behavior & User Experience"
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Behavior controls",
+                  "items": [
+                    "Wizard Theme: Switch between Light and Dark modes to match your store design.",
+                    "Original Price on Hover: Allow customers to see the original store price when they hover their mouse or touch the price."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "sidebar": true,
+      "header": false
+    },
+    {
+      "type": "multipage",
+      "name": "Settings Page",
+      "href": "/settings-page",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Settings Page"
+        },
+        {
+          "type": "subheading",
+          "content": "Control the app's core conversion behavior, rate updates, and storefront recovery options."
+        },
+
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "General Tab"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "General settings",
+              "items": [
+                "Base Currency: Set the core currency used for all conversions.",
+                "App Behavior: Control the storefront wizard visibility.",
+                "Enable Currency Conversion: Unchecking this option will immediately stop all currency conversions on your storefront.",
+                "Remember Visitor Preference: Uses browser local storage to save the customer's preferred currency until they clear their cookies.",
+                "Exchange Rate Update: Rates sync every 6, 12, 24, or 48 hours based on your settings."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "<strong>Important Note:</strong> To restore Shopify's default currency behavior, you must revert the changes made to your Shopify Currency Formatting settings."
+            },
+            {
+              "type": "paragraph",
+              "content": "<strong>Restoring Defaults:</strong> If you choose to uninstall the app or want to return to your original store look, go to your Shopify Admin settings and clear all the input fields where you previously added the Qorix code. Once these fields are empty and saved, Shopify will automatically revert to its native price formatting."
+            },
+            {
+              "type": "image",
+              "url": "/public/img9.png"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Danger Zone"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "High impact actions",
+              "items": [
+                "Reset All Settings: Restores all currency and widget settings to defaults. Clears active selections.",
+                "Clear Visitor Cookies: Removes saved preferences from all visitor browsers on their next page load."
+              ]
+            },
+            {
+              "type": "image",
+              "url": "/public/img10.png"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "name": "Widget Preview Tab",
+          "href": "/settings-page/widget-preview-tab",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 1,
+              "content": "Widget Preview Tab"
+            },
+            {
+              "type": "paragraph",
+              "content": "Use this tab to preview placement, control visibility, and match the widget to your brand."
+            },
+            {
+              "type": "section",
+              "contents": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "content": "Widget Placement"
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Placement options",
+                  "items": [
+                    "Positioning: Set the wizard position exactly where you want it.",
+                    "Custom Injection: Use a specific CSS Class or ID to inject the widget into a custom part of your theme.",
+                    "Edge Offsets: Adjust the distance from the screen edges for both mobile and desktop."
+                  ]
+                },
+                {
+                  "type": "image",
+                  "url": "/public/img11.png"
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "contents": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "content": "Branding & Visibility"
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Branding controls",
+                  "items": [
+                    "Full Branding: Change the background and text colors to match your store's exact branding.",
+                    "Device Visibility: Choose to hide the wizard on specific devices (for example, hide on mobile but show on desktop) while keeping currency conversion active."
+                  ]
+                },
+                {
+                  "type": "image",
+                  "url": "/public/img12.png"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "sidebar": true,
+      "header": false
+    },
+    {
+      "type": "singlepage",
+      "name": "Privacy Policy",
+      "href": "/privacy-policy",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Privacy Policy"
+        },
+        {
+          "type": "paragraph",
+          "content": "Effective Date: May 01, 2026"
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "1. Introduction"
+            },
+            {
+              "type": "paragraph",
+              "content": "Qorix Currency Converter (\"we,\" \"our,\" or \"the App\") provides currency localization services for Shopify merchants store. We are committed to a privacy policy. Our app is built to function with minimal data interaction, ensuring a fast and secure experience for both merchants and their global customers."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "2. Merchant Information (Data We Collect)"
+            },
+            {
+              "type": "paragraph",
+              "content": "To provide our services, we collect limited administrative data from merchants:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Shopify Store ID and Domain: To identify your account and apply settings.",
+                "Contact Information: Email addresses provided via Shopify for support",
+                "Theme Access: We use \"Theme Embed\" permissions to render the currency switcher script on your storefront."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "3. Customer Data & Geolocation"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "We do not collect, store, or share Personal Identifiable Information (PII) from your customers."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "<strong>Real-Time Geolocation:</strong> To display local pricing, the App processes the visitor's IP address in real-time. This processing happens \"in-memory\" to determine the country code and is not stored on our servers."
+            },
+            {
+              "type": "paragraph",
+              "content": "<strong>Browser Local Storage:</strong> We utilize the customer's browser local storage only to remember their preferred currency. This ensures a consistent experience as they navigate your store."
+            },
+            {
+              "type": "paragraph",
+              "content": "<strong>Smart Updates:</strong> While the App automatically detects location, customers always have the option to switch currencies manually. The local storage is automatically updated to reflect the most recent exchange rates based on merchant settings."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "4. Global Regulatory Compliance"
+            },
+            {
+              "type": "paragraph",
+              "content": "We adhere to the highest international data protection standards to ensure your store remains compliant and secure worldwide. Our operations are aligned with the following regulations:"
+            },
+            {
+              "type": "paragraph",
+              "content": "<strong>GDPR (European Union):</strong> We operate as a Data Processor under the General Data Protection Regulation. We process data based on the \"Legitimate Interest\" of providing a functional, localized storefront. We do not transfer or sell European user data to any third parties. Official Reference: https://gdpr-info.eu/"
+            },
+            {
+              "type": "paragraph",
+              "content": "<strong>CCPA/CPRA (United States):</strong> We do not \"sell\" or \"share\" customer personal information as defined by California law. Our app respects user privacy settings and allows customers to opt-out of tracking through your store's primary privacy banner. Official Reference: https://oag.ca.gov/privacy/ccpa"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "5. Data Security & Storage"
+            },
+            {
+              "type": "paragraph",
+              "content": "Because we do not store customer profiles or order histories, the risk of data breach is significantly minimized. Merchant account data is stored on secure, encrypted servers and is only accessible by authorized personnel for support purposes."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "6. Your Rights (Merchant & Customer)"
+            },
+            {
+              "type": "paragraph",
+              "content": "<strong>Merchants:</strong> You may request to view, update, or delete your account data at any time by contacting us. And when you uninstall this app, we keep your data analytics for some time, but settings and other things are not kept."
+            },
+            {
+              "type": "paragraph",
+              "content": "<strong>Customers:</strong> Since we don't save any customer information, we don't have any records to show or delete. This means your customer data stays safe and compliant because there is no customer data for us to share or lose."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "7. Data Security"
+            },
+            {
+              "type": "paragraph",
+              "content": "At Qorix Currency Converter, we prioritize the security of your store. Our infrastructure is built on the principle of Data Minimization."
+            },
+            {
+              "type": "paragraph",
+              "content": "<strong>Merchant Protection:</strong> We only store essential merchant data required to keep the service running. This information is encrypted and stored on secure servers with restricted access."
+            },
+            {
+              "type": "paragraph",
+              "content": "<strong>No Customer Data Collection:</strong> We do not collect, store, or log any personal information from your customers. While our app detects a visitor's location to switch currencies, this process happens instantly in real-time and is never saved to a database."
+            },
+            {
+              "type": "paragraph",
+              "content": "<strong>Safe & Non-Intrusive:</strong> Because we never touch customer PII (Personally Identifiable Information), your store remains fully compliant with global privacy standards without any extra risk."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "8. Changes to this Policy"
+            },
+            {
+              "type": "paragraph",
+              "content": "We may update this policy to reflect new global regulations. We encourage merchants to review this page periodically. Continued use of the App after changes constitutes acceptance of the new terms."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "9. Children's Privacy"
+            },
+            {
+              "type": "paragraph",
+              "content": "Our service is designed exclusively for Shopify merchants and their commercial operations. Qorix Currency Converter does not knowingly collect, request, or store any data from children."
+            },
+            {
+              "type": "paragraph",
+              "content": "Because our app functions strictly as a currency switching tool and does not require user accounts or personal profiles from store visitors, we do not process any \"Personally Identifiable Information\" (PII) from children or any other age group. We are fully committed to complying with the Children's Online Privacy."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "10. Contact Us"
+            },
+            {
+              "type": "paragraph",
+              "content": "If you have any questions about this Privacy Policy or how we handle your store's data, please contact our dedicated support team:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Developer: Nextvence",
+                "Support Email: svaomegaprime@gmail.com",
+                "Availability: 24/7 Excellence Support"
+              ]
+            }
+          ]
+        }
+      ],
+      "sidebar": false,
+      "header": true
+    },
+    {
+      "type": "singlepage",
+      "name": "FAQs",
+      "href": "/faqs",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Frequently Asked Questions (FAQs)"
+        },
+        {
+          "type": "paragraph",
+          "content": "Here are some frequently asked questions about Qorix Currency Converter and how it works."
+        },
+        {
+          "type": "collapsible",
+          "contents": {
+            "heading": "How does the app detect my customer's location?",
+            "desc": "Our app uses smart IP-based geolocation technology. When a customer visits your store, the app identifies their country in real-time and automatically switches the currency to match their local market, creating a seamless shopping experience."
+          }
+        },
+        {
+          "type": "collapsible",
+          "contents": {
+            "heading": "Will the app slow down my store’s loading speed?",
+            "desc": "Not at all. We use a lightweight 'Theme Embed' script that loads asynchronously. This means it doesn't interfere with your store’s main content, ensuring your page speed remains fast and your SEO stays strong."
+          }
+        },
+        {
+          "type": "collapsible",
+          "contents": {
+            "heading": "Can I customize the look of the currency switcher?",
+            "desc": "Yes! You have total control over the design. You can customize the colors to match your brand and choose the exact position where the widget appears on your site whether it's the header, footer, or a floating position."
+          }
+        },
+        {
+          "type": "collapsible",
+          "contents": {
+            "heading": "What happens if a customer's currency isn't supported?",
+            "desc": "We provide a 'Fallback Currency' feature. If a visitor comes from a region where you haven't enabled a specific currency, the app will automatically display your chosen fallback currency (usually your store's base currency) so they always see a price."
+          }
+        },
+        {
+          "type": "collapsible",
+          "contents": {
+            "heading": "How often are the exchange rates updated?",
+            "desc": "To ensure accuracy, our exchange rates are updated automatically in real-time. This protects your margins by ensuring that the converted prices always reflect the most current global market rates without any manual work from you."
+          }
+        },
+        {
+          "type": "collapsible",
+          "contents": {
+            "heading": "Does the app store any customer personal data?",
+            "desc": "No. Privacy is our priority. We do not collect or store any Personally Identifiable Information (PII) from your customers. The geolocation process happens instantly and is never saved on our servers, making your store fully compliant with GDPR and CCPA."
+          }
+        }
+      ],
+      "sidebar": false,
+      "header": true
+    }
+  ],
+  "title": "Qorix Currency Converter"
+}
