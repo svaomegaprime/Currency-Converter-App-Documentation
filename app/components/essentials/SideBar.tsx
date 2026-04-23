@@ -61,7 +61,7 @@ function NavigationSection({
   return (
     <section>
       <h2 className="mb-3 px-1 text-xs font-semibold uppercase tracking-[0.18em] text-stone-500 dark:text-stone-400">
-        {name}
+        {name === "Currency General" ? "Currency Page" : name === "Settings General" ? "Settings Page" : name}
       </h2>
       <div className="space-y-1">
         {items.map((item) => (

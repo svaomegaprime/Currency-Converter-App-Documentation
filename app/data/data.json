@@ -227,7 +227,7 @@
     },
     {
       "type": "multipage",
-      "name": "Currency Page",
+      "name": "Currency General",
       "href": "/currency-page",
       "contents": [
         {
@@ -239,6 +239,7 @@
           "type": "subheading",
           "content": "Configure supported currencies, location-based switching, and how storefront prices are displayed."
         },
+
         {
           "type": "section",
           "contents": [
@@ -316,7 +317,7 @@
       ],
       "pages": [
         {
-          "name": "Design",
+          "name": "Currency Design",
           "href": "/currency-page/design",
           "contents": [
             {
@@ -378,7 +379,7 @@
     },
     {
       "type": "multipage",
-      "name": "Settings Page",
+      "name": "Settings General",
       "href": "/settings-page",
       "contents": [
         {
@@ -390,6 +391,7 @@
           "type": "subheading",
           "content": "Control the app's core conversion behavior, rate updates, and storefront recovery options."
         },
+
         {
           "type": "section",
           "contents": [
@@ -450,7 +452,7 @@
       ],
       "pages": [
         {
-          "name": "Widget Preview Tab",
+          "name": "Widget Preview",
           "href": "/settings-page/widget-preview-tab",
           "contents": [
             {
