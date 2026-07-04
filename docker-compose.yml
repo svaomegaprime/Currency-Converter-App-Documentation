@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: qorix-currency-converter
+    restart: unless-stopped
+
+    ports:
+      - "3500:3500"
+
+    environment:
+      NODE_ENV: production
+      PORT: 3500
+
+    networks:
+      - qorix-currency-network
+
+networks:
+  qorix-currency-network:
+    driver: bridge
